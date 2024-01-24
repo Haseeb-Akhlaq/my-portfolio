@@ -5,7 +5,7 @@ dateString: April 2022 - Oct 2023
 draft: false
 tags: ["ROR", "REACT", "SQL", "Python", "AWS", "Devsinc"]
 showToc: false
-weight: 302
+weight: 102
 --- 
 
 ### Description

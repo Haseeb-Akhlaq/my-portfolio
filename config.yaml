@@ -1,4 +1,4 @@
-baseURL: "https://haseebakhlaq.netlify.app/"
+baseURL: "https://haseebakhlaq.com"
 languageCode: en-us
 title: Haseeb Akhlaq
 theme: PaperMod
@@ -66,7 +66,7 @@ params:
     - name: "email"
       url: "mailto:haseebakhlaq2000@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/haseeb-akhlaq-b094a517a/"
+      url: "https://www.linkedin.com/in/haseebakhlaq2k/"
     - name: "github"
       url: "https://github.com/Haseeb-Akhlaq"
     - name: "youtube"
@@ -78,7 +78,7 @@ params:
     - name: "calendly"
       url: "https://calendly.com/haseebakhlaq/15-min-quick-insight-call" 
     - name: "cv"
-      url: ""
+      url: "https://docs.google.com/document/d/1qjFzyXL48OD-BhYCPdsc2-7C1il2y-RUvbOtfIiRrIk/edit?usp=sharing"
 
   # text search
   fuseOpts:

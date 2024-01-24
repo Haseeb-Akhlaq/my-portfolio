@@ -5,7 +5,7 @@ dateString: Nov 2020 - Sept 2022
 draft: false
 tags: ['FLUTTER', 'FIVERR', 'APP DEVELOPMENT', 'ANDRIOD','IOS']
 showToc: false
-weight: 305
+weight: 103
 --- 
 ### 🔗 [Fiverr](https://www.fiverr.com/akhlaq2000/build-ios-and-android-app-with-ui-using-flutter)
 

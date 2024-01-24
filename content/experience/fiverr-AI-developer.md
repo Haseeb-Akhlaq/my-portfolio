@@ -1,11 +1,11 @@
 ---
-title: "AI and Automation Developer"
+title: "Chatbot Developer Freelance"
 description: "Fiverr"
-dateString: Oct 2023 - Ongoing
+dateString: Oct 2023 - Jan 2024
 draft: false
 tags: ["Python", "AI", "Chatbots", "Fiverr", "Automation", "OpenAI", "Voiceflow"]
 showToc: false
-weight: 301
+weight: 101
 --- 
 
 ### Description
