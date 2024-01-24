@@ -1,0 +1,104 @@
+baseURL: "http://localhost:1313/"
+languageCode: en-us
+title: Haseeb Akhlaq
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: education
+      name: Education
+      url: /education
+      weight: 50  
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 60  
+   
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: developement
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Haseeb Akhlaq"
+    subtitle: Hi 👋! I’m Haseeb, currently pursuing my Masters in Data Science and AI at Edge Hill University, UK 🇬🇧. I'm deeply immersed in the world of Artificial Intelligence, focusing on creating AI chatbots designed to automate and streamline business processes. Alongside this, I’m actively involved in making projects with Langchain, exploring Vector DB, and experimenting with advanced Large Language Models (LLMs) like OpenAI's GPT's. My background as a Full Stack Developer, with over two years of experience in Ruby on Rails, React, Flutter, and AWS, provides a solid foundation for my AI endeavors. I’m also passionate about sharing what I learn, writing easy-to-understand articles on Medium and creating helpful videos on YouTube to explain AI concepts and their real-world applications.
+    imageUrl: "home/profile-pic.png"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:haseebakhlaq2000@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/haseeb-akhlaq-b094a517a/"
+    - name: "github"
+      url: "https://github.com/Haseeb-Akhlaq"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCs_mlvI5e3LO7MZ6Vv9uCkA"
+    - name: "medium"
+      url: "https://medium.com/@haseebakhlaq2000"
+    - name: "fiverr"
+      url: "https://www.fiverr.com/users/akhlaq2000"   
+    - name: "calendly"
+      url: "https://calendly.com/haseebakhlaq/15-min-quick-insight-call" 
+    - name: "cv"
+      url: ""
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
